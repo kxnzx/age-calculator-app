@@ -92,4 +92,4 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kxnzx)
+- Frontend Mentor - [@kxnzx](https://www.frontendmentor.io/profile/kxnzx)
