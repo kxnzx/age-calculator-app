@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="stylesheet/style.css" />
     <title>Frontend Mentor | Age calculator app</title>
   </head>
   <body>
@@ -22,41 +21,53 @@
         <fieldset>
           <!-- Legend defines the caption for the fieldset elements -->
           <legend>Age Calculator App</legend>
-          <!-- DAY -->
-          <label for="day">Day</label>
-          <input
-            id="day"
-            type="text"
-            name="day"
-            placeholder="DD"
-            maxlength="2"
-            size="2"
-          />
-          <span></span>
-          <!-- MONTH -->
-          <label for="month">Month</label>
-          <input
-            id="month"
-            type="text"
-            name="month"
-            placeholder="MM"
-            maxlength="2"
-            size="2"
-          />
-          <span></span>
-          <!-- YEAR -->
-          <label for="year">Year</label>
-          <input
-            id="year"
-            type="text"
-            name="year"
-            placeholder="YYYY"
-            maxlength="4"
-            size="2"
-          />
-          <span></span>
+
+          <div class="row">
+            <!-- DAY -->
+            <div class="column">
+              <label for="day">Day</label>
+              <input
+                id="day"
+                type="text"
+                name="day"
+                placeholder="DD"
+                maxlength="2"
+                size="3"
+              />
+              <span class="errorMessage"></span>
+            </div>
+            <!-- MONTH -->
+            <div class="column">
+              <label for="month">Month</label>
+              <input
+                id="month"
+                type="text"
+                name="month"
+                placeholder="MM"
+                maxlength="2"
+                size="3"
+              />
+              <span class="errorMessage"></span>
+            </div>
+            <!-- YEAR -->
+            <div class="column">
+              <label for="year">Year</label>
+              <input
+                id="year"
+                type="text"
+                name="year"
+                placeholder="YYYY"
+                maxlength="4"
+                size="3"
+              />
+              <span class="errorMessage"></span>
+            </div>
+          </div>
+          <hr />
           <!-- Submit Button -->
           <button>button</button>
+
+          <!-- Display Current Age -->
           <ul>
             <li><span>--</span>years</li>
             <li><span>--</span>months</li>
