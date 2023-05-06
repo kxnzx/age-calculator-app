@@ -10,3 +10,23 @@
   display: flex;
   flex-direction: column;
 }
+
+.form-group {
+  color: var(--smokey-grey);
+}
+.form-group.error {
+  color: var(--light-red);
+}
+.form-group.error input {
+  border: 1px solid var(--light-red);
+}
+.form-group.error p.error {
+  display: block;
+}
+.error.error {
+  color: var(--light-red);
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  display: none;
+}

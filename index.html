@@ -16,64 +16,58 @@
   <body>
     <!-- Main element is included for good practice & accessibility -->
     <main>
-      <form>
-        <!-- Fieldset groups the related data -->
-        <fieldset>
-          <!-- Legend defines the caption for the fieldset elements -->
-          <legend>Age Calculator App</legend>
-
-          <div class="row">
-            <!-- DAY -->
-            <div class="column">
-              <label for="day">Day</label>
-              <input
-                id="day"
-                type="text"
-                name="day"
-                placeholder="DD"
-                maxlength="2"
-                size="3"
-              />
-              <span class="errorMessage"></span>
-            </div>
-            <!-- MONTH -->
-            <div class="column">
-              <label for="month">Month</label>
-              <input
-                id="month"
-                type="text"
-                name="month"
-                placeholder="MM"
-                maxlength="2"
-                size="3"
-              />
-              <span class="errorMessage"></span>
-            </div>
-            <!-- YEAR -->
-            <div class="column">
-              <label for="year">Year</label>
-              <input
-                id="year"
-                type="text"
-                name="year"
-                placeholder="YYYY"
-                maxlength="4"
-                size="3"
-              />
-              <span class="errorMessage"></span>
-            </div>
+      <form action="">
+        <div class="row">
+          <!-- DAY -->
+          <div class="form-group column">
+            <label for="day">Day</label>
+            <input
+              id="day"
+              type="text"
+              name="day"
+              placeholder="DD"
+              maxlength="2"
+              size="3"
+            />
+            <span class="error"></span>
           </div>
-          <hr />
-          <!-- Submit Button -->
-          <button>button</button>
+          <!-- MONTH -->
+          <div class="form-group column">
+            <label for="month">Month</label>
+            <input
+              id="month"
+              type="text"
+              name="month"
+              placeholder="MM"
+              maxlength="2"
+              size="3"
+            />
+            <span class="error"></span>
+          </div>
+          <!-- YEAR -->
+          <div class="form-group column">
+            <label for="year">Year</label>
+            <input
+              id="year"
+              type="text"
+              name="year"
+              placeholder="YYYY"
+              maxlength="4"
+              size="3"
+            />
+            <span class="error"></span>
+          </div>
+        </div>
+        <hr />
+        <!-- Submit Button -->
+        <button id="btn">button</button>
 
-          <!-- Display Current Age -->
-          <ul>
-            <li><span>--</span>years</li>
-            <li><span>--</span>months</li>
-            <li><span>--</span>days</li>
-          </ul>
-        </fieldset>
+        <!-- Display Current Age -->
+        <ul>
+          <li><span id="displayYears">--</span>years</li>
+          <li><span id="displayMonths">--</span>months</li>
+          <li><span id="displayDays">--</span>days</li>
+        </ul>
       </form>
     </main>
 
