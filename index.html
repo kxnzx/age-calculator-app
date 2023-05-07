@@ -16,7 +16,7 @@
   <body>
     <!-- Main element is included for good practice & accessibility -->
     <main>
-      <form action="">
+      <form>
         <div class="row">
           <!-- DAY -->
           <div class="form-group column">
@@ -29,7 +29,7 @@
               maxlength="2"
               size="3"
             />
-            <span class="error"></span>
+            <small class="error"></small>
           </div>
           <!-- MONTH -->
           <div class="form-group column">
@@ -42,7 +42,7 @@
               maxlength="2"
               size="3"
             />
-            <span class="error"></span>
+            <small class="error"></small>
           </div>
           <!-- YEAR -->
           <div class="form-group column">
@@ -55,7 +55,7 @@
               maxlength="4"
               size="3"
             />
-            <span class="error"></span>
+            <small class="error"></small>
           </div>
         </div>
         <hr />
@@ -64,9 +64,9 @@
 
         <!-- Display Current Age -->
         <ul>
-          <li><span id="displayYears">--</span>years</li>
-          <li><span id="displayMonths">--</span>months</li>
-          <li><span id="displayDays">--</span>days</li>
+          <li><span id="DD">--</span>years</li>
+          <li><span id="MM">--</span>months</li>
+          <li><span id="YY">--</span>days</li>
         </ul>
       </form>
     </main>
