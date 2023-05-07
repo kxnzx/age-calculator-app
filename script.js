@@ -13,9 +13,6 @@ const yearOutput = document.getElementById("YY");
 // FORM ELEMENT
 const form = document.querySelector("form");
 
-// ADDING THE SUBMIT EVENTLISTENER TO THE FORM
-form.addEventListener("submit", handleSubmit);
-
 const date = new Date();
 let day = date.getDate();
 let month = 1 + date.getMonth();
@@ -72,6 +69,10 @@ function handleSubmit(e) {
     yearOutput.innerHTML = y;
   }
 }
+
+// ADDING THE SUBMIT EVENTLISTENER TO THE FORM
+form.addEventListener("submit", handleSubmit);
+
 /*
 // INPUT
 let day = document.querySelector("#day");
