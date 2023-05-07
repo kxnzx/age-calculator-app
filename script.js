@@ -1,3 +1,5 @@
+// DOB = Date of Birth
+
 /*
 // INPUT
 let day = document.querySelector("#day");
