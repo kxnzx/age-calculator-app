@@ -1,3 +1,4 @@
+/*
 // INPUT
 let day = document.querySelector("#day");
 let month = document.querySelector("#month");
@@ -126,3 +127,4 @@ function resetOutput() {
   displayMonths.innerText = "--";
   displayDays.innerText = "--";
 }
+*/
