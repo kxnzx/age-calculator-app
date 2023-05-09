@@ -20,6 +20,17 @@ let year = date.getFullYear();
 
 const months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
+/*
+// TEST ERROR FUNCTION
+function setError(element, message = "This field is required") {
+  let formGroup = element.parentNode;
+  let error = formGroup.querySelector(".error");
+  formGroup.classList.add("error");
+  error.innerText = message;
+  resetOutput();
+}
+*/
+
 function validate() {
   const inputs = document.querySelectorAll("input");
   let validator = true;
