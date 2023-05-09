@@ -27,15 +27,18 @@ function validate() {
     const parent = i.parentElement;
     if (!i.value) {
       i.style.borderColor = "red";
+      parent.querySelector("label").style.color = "red";
       parent.querySelector("small").innerText = "This field is required.";
       validator = false;
     } else if (monthInput.value > 12) {
       monthInput.style.borderColor = "red";
+      parent.querySelector("label").style.color = "red";
       monthInput.parentElement.querySelector("small").innerText =
         "Must be a valid month.";
       validator = false;
     } else if (dayInput.value > 31) {
       dayInput.style.borderColor = "red";
+      parent.querySelector("label").style.color = "red";
       dayInput.parentElement.querySelector("small").innerText =
         "Must be a valid day.";
       validator = false;

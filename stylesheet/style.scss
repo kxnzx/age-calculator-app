@@ -26,9 +26,8 @@
   display: block;
 }
 .error.error {
-  color: var(--light-red);
+  color: red;
   font-size: 12px;
   font-weight: 400;
   font-style: italic;
-  display: none;
 }
