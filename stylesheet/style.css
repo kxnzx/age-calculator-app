@@ -11,6 +11,10 @@
   flex-direction: column;
 }
 
+input {
+  outline: none;
+}
+
 .error {
   color: red;
   font-size: 12px;

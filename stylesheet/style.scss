@@ -13,6 +13,15 @@
   flex-direction: column;
 }
 
+input {
+  outline: none;
+  //box-shadow: none;
+}
+
+input:focus {
+  //box-shadow: none;
+}
+
 .error {
   color: red;
   font-size: 12px;
