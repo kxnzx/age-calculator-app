@@ -1,5 +1,12 @@
 // DOB = Date of Birth
 
+// TO DO
+/* 
+Receive validation errors if:
+  - The year is in the future
+  - The date is invalid e.g. 31/04/1991 (there are 30 days in April)
+*/
+
 // INPUTS
 const dayInput = document.getElementById("day");
 const monthInput = document.getElementById("month");
