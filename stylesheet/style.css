@@ -4,6 +4,7 @@
   justify-content: space-between;
   max-width: 200px;
   padding: 0 0 10px 0;
+  gap: 6px;
 }
 
 .column {
