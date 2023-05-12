@@ -52,6 +52,8 @@ form {
   max-width: 34rem;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 18px;
+  border-bottom-right-radius: 60px;
 }
 
 .row {
@@ -66,6 +68,13 @@ form {
 .column {
   display: flex;
   flex-direction: column;
+}
+
+label {
+  color: hsl(0deg, 1%, 44%);
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-size: 1.2rem;
 }
 
 input {
