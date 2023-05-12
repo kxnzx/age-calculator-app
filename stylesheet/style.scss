@@ -1,5 +1,75 @@
 // Margin = Outside the Box
 // Padding = Inside the Box
+// GOOGLE FONTS
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+// VARIABLES
+// Colors
+// primary colors
+$purple: hsl(259, 100%, 65%);
+$light_red: hsl(0, 100%, 67%);
+// neutral colors
+$white: hsl(0, 0%, 100%);
+$off_white: hsl(0, 0%, 94%);
+$light_grey: hsl(0, 0%, 86%);
+$smokey_grey: hsl(0, 1%, 44%);
+$off_black: hsl(0, 0%, 8%);
+// Typography
+// font-family
+$ff_Poppins: "Poppins", sans-serif;
+// font-weight
+$fw_regular_italic: 400;
+$fw_bold: 700;
+$fw_extra_bold_italic: 800;
+// font-size
+$fs_inputs: 3.2rem;
+// Breakpoints
+$mobile: 640px;
+$tablet: 768px;
+$xl_tablet: 960px;
+$desktop: 1024px;
+// RESET
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 62.5% of 16px browser font size is 10px */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+img {
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.6;
+}
+
+// STYLES
+body {
+  font-family: $ff_Poppins;
+}
+
 .row {
   display: flex;
   flex-direction: row;
