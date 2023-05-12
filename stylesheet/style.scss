@@ -82,6 +82,7 @@ form {
   max-width: 34rem;
   margin-left: auto;
   margin-right: auto;
+  padding: 5rem 2.5rem 4.4rem 2.5rem;
   border-radius: 18px;
   border-bottom-right-radius: 60px;
 }
@@ -110,6 +111,9 @@ label {
 input {
   outline: none;
   box-shadow: none;
+  border: solid 1px $light_grey;
+  border-radius: 8px;
+  padding: 1.5rem 0 1.5rem 1.5rem;
 }
 
 input:focus {
