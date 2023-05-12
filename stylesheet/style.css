@@ -38,6 +38,20 @@ p {
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  background-color: hsl(0deg, 0%, 94%);
+}
+
+main {
+  min-height: 100vh;
+  margin-top: 9rem;
+}
+
+form {
+  background-color: hsl(0deg, 0%, 100%);
+  max-width: 34rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
