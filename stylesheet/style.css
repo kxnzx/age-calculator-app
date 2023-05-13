@@ -61,9 +61,7 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 200px;
   padding: 0 0 10px 0;
-  gap: 6px;
 }
 
 .column {
@@ -84,6 +82,10 @@ input {
   border: solid 1px hsl(0deg, 0%, 86%);
   border-radius: 8px;
   padding: 1.5rem 0 1.5rem 1.5rem;
+  margin-top: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 8%);
 }
 
 input:focus {
@@ -95,4 +97,25 @@ input:focus {
   font-size: 12px;
   font-weight: 400;
   font-style: italic;
+}
+
+hr {
+  margin-top: 6.4rem;
+  border-top: 0.5px solid hsl(0deg, 0%, 94%);
+}
+
+ul {
+  margin-top: 7rem;
+}
+
+ul,
+li {
+  font-size: 4.75rem;
+  font-weight: 800;
+  font-style: italic;
+}
+
+ul > li > span {
+  color: hsl(259deg, 100%, 65%);
+  margin-right: 0.5rem;
 }/*# sourceMappingURL=style.css.map */
