@@ -132,6 +132,21 @@ input:focus {
 hr {
   margin-top: 5rem;
   border-top: 0.5px solid $off_white;
+  position: relative;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  background-color: $purple;
+  padding: 2rem;
+  position: absolute;
+  top: 25rem;
+  left: 14.5rem;
+}
+
+button > img {
+  width: 1.95rem;
 }
 
 ul {

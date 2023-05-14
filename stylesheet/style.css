@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
 html {
   box-sizing: border-box;
   font-size: 62.5%; /* 62.5% of 16px browser font size is 10px */
@@ -102,6 +102,21 @@ input:focus {
 hr {
   margin-top: 5rem;
   border-top: 0.5px solid hsl(0deg, 0%, 94%);
+  position: relative;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  background-color: hsl(259deg, 100%, 65%);
+  padding: 2rem;
+  position: absolute;
+  top: 25rem;
+  left: 14.5rem;
+}
+
+button > img {
+  width: 1.95rem;
 }
 
 ul {
