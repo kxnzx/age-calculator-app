@@ -1,7 +1,7 @@
 // Margin = Outside the Box
 // Padding = Inside the Box
 // GOOGLE FONTS
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
 // VARIABLES
 // Colors
 // primary colors
@@ -17,9 +17,9 @@ $off_black: hsl(0, 0%, 8%);
 // font-family
 $ff_Poppins: "Poppins", sans-serif;
 // font-weight
-$fw_regular_italic: 400;
+$fw_regular: 400;
 $fw_bold: 700;
-$fw_extra_bold_italic: 800;
+$fw_extra_bold: 800;
 // font-size
 $fs_inputs: 3.2rem;
 // Breakpoints
@@ -141,7 +141,7 @@ ul {
 ul,
 li {
   font-size: 4.75rem;
-  font-weight: $fw_extra_bold_italic;
+  font-weight: $fw_extra_bold;
   font-style: italic;
 }
 
