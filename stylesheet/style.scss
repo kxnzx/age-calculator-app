@@ -132,7 +132,6 @@ input:focus {
 hr {
   margin-top: 5rem;
   border-top: 0.5px solid $off_white;
-  position: relative;
 }
 
 button {
@@ -140,9 +139,6 @@ button {
   border-radius: 50%;
   background-color: $purple;
   padding: 2rem;
-  position: absolute;
-  top: 25rem;
-  left: 15.5rem;
 }
 
 button > img {
