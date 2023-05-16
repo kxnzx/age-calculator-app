@@ -95,7 +95,7 @@ input:focus {
 
 .error {
   color: red;
-  font-size: 12px;
+  font-size: 0.85rem;
   font-weight: 400;
   font-style: italic;
 }
