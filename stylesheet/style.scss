@@ -90,7 +90,7 @@ form {
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 1rem;
   padding: 0 0 10px 0;
 }
 
