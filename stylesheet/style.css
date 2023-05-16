@@ -104,11 +104,19 @@ hr {
   border-top: 0.5px solid hsl(0deg, 0%, 94%);
 }
 
+.relative {
+  position: relative;
+}
+
 button {
   border: none;
   border-radius: 50%;
   background-color: hsl(259deg, 100%, 65%);
   padding: 2rem;
+  position: absolute;
+  left: 11.5rem;
+  top: -3rem;
+  cursor: pointer;
 }
 
 button > img {
