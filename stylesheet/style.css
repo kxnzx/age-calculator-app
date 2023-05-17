@@ -46,15 +46,28 @@ main {
   min-height: 100vh;
   margin-top: 9rem;
 }
+@media screen and (min-width: 1024px) {
+  main {
+    margin-top: 0;
+    display: grid;
+    place-items: center;
+  }
+}
 
 form {
   background-color: hsl(0deg, 0%, 100%);
   max-width: 34rem;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 5rem 2.5rem 4.4rem 2.5rem;
   border-radius: 18px;
   border-bottom-right-radius: 60px;
+}
+@media screen and (min-width: 1024px) {
+  form {
+    max-width: 76rem;
+  }
 }
 
 .row {
