@@ -101,6 +101,10 @@ form {
   flex-direction: row;
   gap: 1rem;
   padding: 0 0 10px 0;
+  @media screen and (min-width: $desktop) {
+    border: solid red 2px;
+    gap: 3rem;
+  }
 }
 
 .column {

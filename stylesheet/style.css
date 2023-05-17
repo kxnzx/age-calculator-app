@@ -76,6 +76,12 @@ form {
   gap: 1rem;
   padding: 0 0 10px 0;
 }
+@media screen and (min-width: 1024px) {
+  .row {
+    border: solid red 2px;
+    gap: 3rem;
+  }
+}
 
 .column {
   display: flex;
