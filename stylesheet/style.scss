@@ -101,9 +101,6 @@ form {
   flex-direction: row;
   gap: 1rem;
   padding: 0 0 10px 0;
-  @media screen and (min-width: $desktop) {
-    gap: 3rem;
-  }
 }
 
 .column {
@@ -117,6 +114,9 @@ label {
   letter-spacing: 0.4rem;
   font-size: 1.2rem;
   font-weight: $fw_bold;
+  @media screen and (min-width: $desktop) {
+    font-size: 1.6rem;
+  }
 }
 
 input {
@@ -129,6 +129,10 @@ input {
   font-size: 1.8rem;
   font-weight: $fw_extra_bold;
   color: $off_black;
+  @media screen and (min-width: $desktop) {
+    width: 16rem;
+    font-size: $fs_inputs;
+  }
 }
 
 input:focus {
@@ -161,6 +165,9 @@ button {
   left: 11.5rem;
   top: -3rem;
   cursor: pointer;
+  @media screen and (min-width: $desktop) {
+    left: 65.5rem;
+  }
 }
 
 button > img {
