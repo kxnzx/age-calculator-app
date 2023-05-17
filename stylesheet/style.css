@@ -78,7 +78,6 @@ form {
 }
 @media screen and (min-width: 1024px) {
   .row {
-    border: solid red 2px;
     gap: 3rem;
   }
 }
