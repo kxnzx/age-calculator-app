@@ -151,6 +151,10 @@ button {
   }
 }
 
+button > img {
+  margin: 0 auto;
+}
+
 ul {
   margin-top: 5rem;
 }
