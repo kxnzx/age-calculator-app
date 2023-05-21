@@ -138,7 +138,8 @@ button {
   border: none;
   border-radius: 50%;
   background-color: hsl(259deg, 100%, 65%);
-  padding: 2rem;
+  width: 6.5rem;
+  height: 6.5rem;
   position: absolute;
   left: 11.5rem;
   top: -3rem;
@@ -148,10 +149,6 @@ button {
   button {
     left: 65.5rem;
   }
-}
-
-button > img {
-  width: 1.95rem;
 }
 
 ul {

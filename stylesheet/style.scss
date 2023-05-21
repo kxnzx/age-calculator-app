@@ -160,7 +160,8 @@ button {
   border: none;
   border-radius: 50%;
   background-color: $purple;
-  padding: 2rem;
+  width: 6.5rem;
+  height: 6.5rem;
   position: absolute;
   left: 11.5rem;
   top: -3rem;
@@ -168,10 +169,6 @@ button {
   @media screen and (min-width: $desktop) {
     left: 65.5rem;
   }
-}
-
-button > img {
-  width: 1.95rem;
 }
 
 ul {
