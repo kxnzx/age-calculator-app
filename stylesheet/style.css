@@ -117,7 +117,6 @@ input {
     font-size: 3.2rem;
   }
 }
-
 input:focus {
   box-shadow: none;
 }
@@ -152,7 +151,7 @@ button {
 }
 @media screen and (min-width: 1024px) {
   button {
-    left: 65.5rem;
+    left: 53.5rem;
   }
 }
 

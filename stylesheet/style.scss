@@ -136,6 +136,9 @@ input {
     width: 16rem;
     font-size: $fs_inputs;
   }
+  @media screen and (min-width: $mobile) {
+    //width: 14rem;
+  }
 }
 
 input:focus {
@@ -170,7 +173,7 @@ button {
   top: -3rem;
   cursor: pointer;
   @media screen and (min-width: $desktop) {
-    left: 65.5rem;
+    left: 53.5rem;
   }
 }
 
