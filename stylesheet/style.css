@@ -64,14 +64,15 @@ form {
   border-radius: 18px;
   border-bottom-right-radius: 60px;
 }
+@media screen and (min-width: 640px) {
+  form {
+    padding: 5.5rem 6rem 5rem 6rem;
+    max-width: 65rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   form {
     max-width: 76rem;
-  }
-}
-@media screen and (min-width: 640px) {
-  form {
-    max-width: 65rem;
   }
 }
 
@@ -111,12 +112,18 @@ input {
   font-weight: 800;
   color: hsl(0deg, 0%, 8%);
 }
+@media screen and (min-width: 640px) {
+  input {
+    width: 14rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   input {
     width: 16rem;
     font-size: 3.2rem;
   }
 }
+
 input:focus {
   box-shadow: none;
 }
@@ -149,9 +156,14 @@ button {
   top: -3rem;
   cursor: pointer;
 }
+@media screen and (min-width: 640px) {
+  button {
+    left: 50rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   button {
-    left: 53.5rem;
+    left: 57.5rem;
   }
 }
 

@@ -91,11 +91,12 @@ form {
   padding: 5rem 2.5rem 4.4rem 2.5rem;
   border-radius: 18px;
   border-bottom-right-radius: 60px;
+  @media screen and (min-width: $mobile) {
+    padding: 5.5rem 6rem 5rem 6rem;
+    max-width: 65rem;
+  }
   @media screen and (min-width: $desktop) {
     max-width: 76rem;
-  }
-  @media screen and (min-width: $mobile) {
-    max-width: 65rem;
   }
 }
 
@@ -132,12 +133,12 @@ input {
   font-size: 1.8rem;
   font-weight: $fw_extra_bold;
   color: $off_black;
+  @media screen and (min-width: $mobile) {
+    width: 14rem;
+  }
   @media screen and (min-width: $desktop) {
     width: 16rem;
     font-size: $fs_inputs;
-  }
-  @media screen and (min-width: $mobile) {
-    //width: 14rem;
   }
 }
 
@@ -172,8 +173,11 @@ button {
   left: 11.5rem;
   top: -3rem;
   cursor: pointer;
+  @media screen and (min-width: $mobile) {
+    left: 50rem;
+  }
   @media screen and (min-width: $desktop) {
-    left: 53.5rem;
+    left: 57.5rem;
   }
 }
 
