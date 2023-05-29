@@ -69,6 +69,11 @@ form {
     max-width: 76rem;
   }
 }
+@media screen and (min-width: 640px) {
+  form {
+    max-width: 65rem;
+  }
+}
 
 .row {
   display: flex;

@@ -94,6 +94,9 @@ form {
   @media screen and (min-width: $desktop) {
     max-width: 76rem;
   }
+  @media screen and (min-width: $mobile) {
+    max-width: 65rem;
+  }
 }
 
 .row {
