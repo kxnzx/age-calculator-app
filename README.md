@@ -68,8 +68,6 @@ Users should be able to:
 
 ### What I learned
 
-To see how you can add code snippets, see below:
-
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
