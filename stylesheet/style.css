@@ -111,6 +111,7 @@ input {
   font-size: 1.8rem;
   font-weight: 800;
   color: hsl(0deg, 0%, 8%);
+  cursor: pointer;
 }
 @media screen and (min-width: 640px) {
   input {
@@ -155,6 +156,9 @@ button {
   left: 11.5rem;
   top: -3rem;
   cursor: pointer;
+}
+button:hover {
+  background-color: hsl(0deg, 0%, 8%);
 }
 @media screen and (min-width: 640px) {
   button {

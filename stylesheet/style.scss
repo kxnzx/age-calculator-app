@@ -133,6 +133,7 @@ input {
   font-size: 1.8rem;
   font-weight: $fw_extra_bold;
   color: $off_black;
+  cursor: pointer;
   @media screen and (min-width: $mobile) {
     width: 14rem;
   }
@@ -173,6 +174,9 @@ button {
   left: 11.5rem;
   top: -3rem;
   cursor: pointer;
+  &:hover {
+    background-color: $off_black;
+  }
   @media screen and (min-width: $mobile) {
     left: 50rem;
   }
