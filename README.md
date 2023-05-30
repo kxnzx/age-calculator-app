@@ -79,9 +79,7 @@ Users should be able to:
 ```
 
 ```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+
 ```
 
 ## Author
