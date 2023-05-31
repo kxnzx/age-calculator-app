@@ -36,11 +36,11 @@ Users should be able to:
 
 #### Screensize 1440px - Desktop
 
-![Desktop](./images/Desktop.gif)
+![Desktop](./design/Desktop.gif)
 
 #### Screensize 375px - Mobile
 
-![Mobile](./images/Mobile.gif)
+![Mobile](./design/Mobile.gif)
 
 ### Links
 
@@ -73,9 +73,7 @@ Users should be able to:
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+
 ```
 
 ```js
