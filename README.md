@@ -72,6 +72,10 @@ Users should be able to:
 <h1>Some HTML code</h1>
 ```
 
+```css
+
+```
+
 ## Author
 
 - Frontend Mentor - [@kxnzx](https://www.frontendmentor.io/profile/kxnzx)
