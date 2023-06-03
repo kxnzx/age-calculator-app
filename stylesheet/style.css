@@ -191,4 +191,8 @@ li {
 ul > li > span {
   color: hsl(259deg, 100%, 65%);
   margin-right: 0.5rem;
+}
+
+footer {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
