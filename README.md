@@ -68,13 +68,7 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code</h1>
-```
-
-```css
-
-```
+I did my best to finish this challenge. It is not perfect, but at least it's a decent attempt. I am currently following a JavaScript course, so my focus is on learning that right now. I will try to also make some frontend mentor challenges on the side.
 
 ## Author
 
