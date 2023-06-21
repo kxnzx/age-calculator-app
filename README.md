@@ -32,8 +32,6 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
 #### Screensize 1440px - Desktop
 
 ![Desktop](./design/Desktop.gif)
@@ -44,7 +42,7 @@ Users should be able to:
 
 ### Links
 
-- View my Solution on [Frontend Mentor]()
+- View my Solution on [Frontend Mentor](https://www.frontendmentor.io/solutions/age-calculator-app-with-vanilla-javascript-K3ycL8l3Y2)
 - View the [Live Site](https://kxnzx.github.io/age-calculator-app/)
 
 ## My process
